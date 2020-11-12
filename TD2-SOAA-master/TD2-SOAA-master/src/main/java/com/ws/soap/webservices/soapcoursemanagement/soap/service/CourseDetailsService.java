@@ -22,7 +22,7 @@ public class CourseDetailsService {
     	 Course course3 = new Course(3, "Spring Boot", "10step");
     	 courses.add(course3);
     	 
-    	 Course course4 = new Course(4, "Maven", "Most pop");
+    	 Course course4 = new Course(4, "Maven", "Most popular framework");
     	 courses.add(course4);
     	 
      }
