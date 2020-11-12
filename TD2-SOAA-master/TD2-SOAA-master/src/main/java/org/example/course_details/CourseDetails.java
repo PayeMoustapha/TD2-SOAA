@@ -45,7 +45,7 @@ import javax.xml.bind.annotation.XmlType;
 public class CourseDetails {
 
     @XmlElement(required = true)
-    protected BigInteger id;
+    protected int id;
     @XmlElement(required = true)
     protected String name;
     @XmlElement(required = true)
@@ -59,20 +59,20 @@ public class CourseDetails {
      *     {@link BigInteger }
      *     
      */
-    public BigInteger getId() {
+    public int getId() {
         return id;
     }
 
     /**
      * Définit la valeur de la propriété id.
      * 
-     * @param value
+     * @param i
      *     allowed object is
      *     {@link BigInteger }
      *     
      */
-    public void setId(BigInteger value) {
-        this.id = value;
+    public void setId(int i) {
+        this.id = i;
     }
 
     /**
