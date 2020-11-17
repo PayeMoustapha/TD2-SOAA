@@ -2,7 +2,7 @@
 // Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.7 
 // Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
-// Généré le : 2020.11.12 à 12:04:17 PM UTC 
+// Généré le : 2020.11.17 à 10:47:09 AM UTC 
 //
 
 
@@ -45,7 +45,7 @@ import javax.xml.bind.annotation.XmlType;
 public class CourseDetails {
 
     @XmlElement(required = true)
-    protected int id;
+    protected BigInteger id;
     @XmlElement(required = true)
     protected String name;
     @XmlElement(required = true)
@@ -59,20 +59,20 @@ public class CourseDetails {
      *     {@link BigInteger }
      *     
      */
-    public int getId() {
+    public BigInteger getId() {
         return id;
     }
 
     /**
      * Définit la valeur de la propriété id.
      * 
-     * @param i
+     * @param value
      *     allowed object is
      *     {@link BigInteger }
      *     
      */
-    public void setId(int i) {
-        this.id = i;
+    public void setId(BigInteger value) {
+        this.id = value;
     }
 
     /**
